@@ -47,10 +47,11 @@ html, body {
     color: white;
     padding: 1rem;
     display: block;
+    transition-duration: 0.25s;
 }
 
 .navbar-links-li a:hover {
-    background-color: #ff3535;
+    color: #FFB400;
 }
 
 .toggle {
