@@ -1,3 +1,3 @@
-FROM ubuntu/apache2:latest
-RUN rm /var/www/html/index.html
-COPY ./www /var/www/html
+FROM httpd:2.4-alpine
+RUN rm /usr/local/apache2/htdocs/index.html
+COPY ./www/ /usr/local/apache2/htdocs/
