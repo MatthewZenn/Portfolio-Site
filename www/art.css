@@ -44,14 +44,14 @@ html, body {
 
 .navbar-links-li a {
     text-decoration: none;
-    color: white;
+    color: #FFB400;
     padding: 1rem;
     display: block;
     transition-duration: 0.25s;
 }
 
 .navbar-links-li a:hover {
-    color: #FFB400;
+    color: white;
 }
 
 .toggle {
